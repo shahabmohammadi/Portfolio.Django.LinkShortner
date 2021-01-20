@@ -2,3 +2,5 @@
 .idea/
 
 venv/
+
+URL_Shortener_Django/__pycache__/
