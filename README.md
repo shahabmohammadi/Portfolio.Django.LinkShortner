@@ -17,6 +17,7 @@ Interfaces   `"Twitter Bootstrap" package`
 
 1. Clone the repo
 1. Open the repo in terminal
+1. Notice: #Be sure you know venv and continue steps in your virtual environment not in global python
 2. Run `pip install -r requirements.txt`
 2. Run `python manage.py makemigrations`
 2. Run `python manage.py migrate`
