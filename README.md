@@ -5,10 +5,21 @@
 This tutorial integrates django into one application, with twitter bootstrap and jquery handling frontend logic and
 django managing backend reponses.
 
+## Technologies
+
+Back-End   `Django firmwork`
+<br>
+Front-End   `JQuery Library`
+<br>
+Interfaces   `"Twitter Bootstrap" package`
+
 ## Installation
 
 1. Clone the repo
+1. Open the repo in terminal
 2. Run `pip install -r requirements.txt`
-3. Run `python manage.py runserver`
+2. Run `python manage.py makemigrations`
+2. Run `python manage.py migrate`
+3. Run `python manage.py runserver 'http://127.0.0.1:8000/'`
 
 For a detailed tutorial, checkout my blog [Tutorials](http://shahabmohammadi.github.io).
