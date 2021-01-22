@@ -4,3 +4,5 @@
 venv/
 
 URL_Shortener_Django/__pycache__/
+
+db.sqlite3
