@@ -21,11 +21,6 @@ jobs:
       install:
         - pip install -r requirements.txt
         - npm install
-      before_script:
-        - chmod +x wait-for-it.sh
-        - ./node_modules/.bin/webpack
-        - python manage.py runserver &
-        - ./wait-for-it.sh -h localhost -p 8000 -t 10
       script:
         - pytest test/
     - stage: no_webpack
