@@ -26,4 +26,4 @@ Before starting installation make sure you are installing project dependencies i
 1. Open your browser with `http://127.0.0.1:8000/` address and enjoy this project.
 
 
-For a detailed tutorial, checkout my blog [Tutorials](http://shahabmohammadi.github.io).
+Please checkout my page on [Github.io](http://shahabmohammadi.github.io) thanks.
