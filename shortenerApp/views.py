@@ -9,9 +9,9 @@ from shortenerApp.models import Urls
 
 
 class StatisticView(View):
-    def post(self, request, *args, **kwargs):
+    def get(self, request, id, *args, **kwargs):
         context = {
-
+            "id": id,
         }
         return render(request, template_name="statistic.html", context=context)
 
