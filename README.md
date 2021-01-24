@@ -15,9 +15,10 @@ Interfaces   `Twitter Bootstrap`
 
 ## Installation
 
+Before starting installation make sure you are installing project dependencies in your virtual environment nut in system main python. 
+
 1. Clone the repo
-1. Open the repo in terminal
-1. Notice: #Be sure you know venv and continue steps in your virtual environment not in global python
+1. Open the repo directory in a new linux terminal or windows command-line
 1. Run `pip install -r requirements.txt`
 1. Run `python manage.py makemigrations`
 1. Run `python manage.py migrate`
