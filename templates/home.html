@@ -42,7 +42,7 @@
     <div class="row pt-5">
         <div class="col"></div>
         <div class="col">
-            <form action="" method="post">
+            <form action="{% url 'home' %}" method="post">
                 {% csrf_token %}
                 {{ form|crispy }}
                 <button type="submit" class="btn btn-primary btn-lg btn-block">Short it</button>
