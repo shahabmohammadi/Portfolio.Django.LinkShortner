@@ -15,10 +15,10 @@ Interfaces   `Twitter Bootstrap package`
 
 ## Installation
 
-Before starting installation make sure you are installing project dependencies in your virtual environment not in system main python. 
+Before starting installation make sure you are installing project dependencies in your virtual environment not in system main python interpreter. 
 
-1. Clone the repo
-1. Open the repo directory in a new linux terminal or windows command-line
+1. Clone the repository with `git clone https://github.com/shahabmohammadi/Portfolio.Django.LinkShortner.git`
+1. Open the repo directory in a new OSX/linux terminal or Windows command-line
 1. Run `pip install -r requirements.txt`
 1. Run `python manage.py makemigrations`
 1. Run `python manage.py migrate`
