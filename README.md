@@ -2,7 +2,7 @@
 
 # Portfolio.Django.LinkShortner
 
-This tutorial integrates django into one application, with twitter bootstrap and jquery handling frontend logic and
+This project integrates django into one link shortener webaplication, with twitter bootstrap and jquery handling frontend logic and
 django managing backend reponses.
 
 ## Technologies
@@ -15,7 +15,7 @@ Interfaces   `Twitter Bootstrap`
 
 ## Installation
 
-Before starting installation make sure you are installing project dependencies in your virtual environment nut in system main python. 
+Before starting installation make sure you are installing project dependencies in your virtual environment not in system main python. 
 
 1. Clone the repo
 1. Open the repo directory in a new linux terminal or windows command-line
