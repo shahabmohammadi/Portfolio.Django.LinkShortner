@@ -8,12 +8,12 @@ from shortenerApp.forms import UrlForm
 from shortenerApp.models import Urls
 
 
-class AnalysisView(View):
+class StatisticView(View):
     def post(self, request, *args, **kwargs):
         context = {
 
         }
-        return render(request, template_name="analysis.html", context=context)
+        return render(request, template_name="statistic.html", context=context)
 
 
 class LinkView(View):
