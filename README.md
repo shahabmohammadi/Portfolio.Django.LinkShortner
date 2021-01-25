@@ -11,7 +11,7 @@ Back-End   `Django framework`
 <br>
 Front-End   `JQuery Library`
 <br>
-Interfaces   `Twitter Bootstrap package`
+U-Interfaces   `Twitter Bootstrap package`
 
 ## Installation
 
