@@ -1,4 +1,4 @@
-# myPortfolio Django Link Shortner<br />
+# Portfolio Django Link Shortner<br />
 Live [demo](http://linkshortner.pythonanywhere.com/) of this project.
                                                      
 This project integrates django into an online link shortener web aplication, with twitter bootstrap and jquery handling frontend logic and
