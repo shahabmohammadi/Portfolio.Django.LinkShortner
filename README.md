@@ -7,11 +7,11 @@ django managing backend reponses.
 
 ## Technologies
 
-Back-End framework`Django framework`
+Back-End Framework`Django framework`
 <br>
 Front-End Library`JQuery `
 <br>
-U-Interfaces package`Twitter Bootstrap `
+U-Interfaces Package`Twitter Bootstrap `
 
 ## Installation
 
