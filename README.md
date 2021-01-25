@@ -7,7 +7,7 @@ django managing backend reponses.
 
 ## Technologies
 
-Back-End      ----->`Django framework`
+Back-End      \t`Django framework`
 <br>
 Front-End     ---->`JQuery Library`
 <br>
