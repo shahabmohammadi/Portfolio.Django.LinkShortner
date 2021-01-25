@@ -1,9 +1,9 @@
 [![Build Status](https://travis-ci.com/shahabmohammadi/Portfolio.Django.LinkShortner.svg?branch=master)](https://travis-ci.com/shahabmohammadi/Portfolio.Django.LinkShortner)
 
-# Portfolio.Django.LinkShortner<br>
-<div> __            __     __    ___           ___    __  </div><br />
-<div>/__`   |__|   /  \   |__)    |    |\ |   |__    |__) </div><br />
-<div>.__/   |  |   \__/   |  \    |    | \|   |___   |  \ </div><br />
+# Portfolio.Django.LinkShortner<br />
+ __            __     __    ___           ___    __  <br />
+/__`   |__|   /  \   |__)    |    |\ |   |__    |__) <br />
+.__/   |  |   \__/   |  \    |    | \|   |___   |  \ <br />
                                                      
 This project integrates django into an online link shortener web aplication, with twitter bootstrap and jquery handling frontend logic and
 django managing backend reponses.
