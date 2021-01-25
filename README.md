@@ -1,9 +1,13 @@
 [![Build Status](https://travis-ci.com/shahabmohammadi/Portfolio.Django.LinkShortner.svg?branch=master)](https://travis-ci.com/shahabmohammadi/Portfolio.Django.LinkShortner)
 
 # Portfolio.Django.LinkShortner<br />
- __            __     __    ___           ___    __  <br />
-/__`   |__|   /  \   |__)    |    |\ |   |__    |__) <br />
-.__/   |  |   \__/   |  \    |    | \|   |___   |  \ <br />
++----------------------------------+---------+------------------------+----------------+
+|               Col1               |  Col2   |          Col3          | Numeric Column |
++----------------------------------+---------+------------------------+----------------+
+| Value 1                          | Value 2 | 123                    |           10.0 |
+| Separate                         | cols    | with a tab or 4 spaces |       -2,027.1 |
+| This is a row with only one cell |         |                        |                |
++----------------------------------+---------+------------------------+----------------+
                                                      
 This project integrates django into an online link shortener web aplication, with twitter bootstrap and jquery handling frontend logic and
 django managing backend reponses.
