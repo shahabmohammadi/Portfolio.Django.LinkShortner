@@ -134,9 +134,10 @@
 
         /* Copy the text inside the text field */
         document.execCommand("copy");
-
         /* Alert the copied text */
-        alert("Link: " + copyText.value + " Copied Successfully.");
+        {#alert("Link: " + copyText.value + " Copied Successfully.");#}
+        $("#collapse").removeClass("show");
+
     }
 </script>
 
