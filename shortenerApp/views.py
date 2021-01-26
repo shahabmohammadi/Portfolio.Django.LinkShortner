@@ -50,7 +50,7 @@ class HomeView(View):
             except:
                 new_url = new_url[0]
             new_pk = new_url.pk
-            new_url = "http://127.0.0.1:8000/" + str(new_url.pk)
+            new_url = "http://linkshortner.pythonanywhere.com/" + str(new_url.pk)
 
         context = {
             "new_url": new_url,
