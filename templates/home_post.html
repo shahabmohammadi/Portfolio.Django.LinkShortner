@@ -61,7 +61,19 @@
                         <input type="text" name="url" value="{{ new_url }}"
                                class="textinput textInput form-control" required="" id="new-link"></div>
                     <div class="collapse" id="collapse">
-                    </button>
+                        <div class="card card-body">
+                            <div class="text-success text-center">
+                                Copied in your clipboard successfully
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-1">
+                        <button class="btn btn-primary btn-lg btn-block " onclick="myFunction(id='new-link')"
+                                data-toggle="collapse" data-target="#collapse" aria-expanded="false"
+                                aria-controls="collapseExample">
+                            <i class="fa fa-files-o" aria-hidden="true" id="copy-btn"></i>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
