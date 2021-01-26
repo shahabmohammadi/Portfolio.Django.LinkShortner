@@ -31,16 +31,6 @@
 
 <div class="container">
     <div class="row pt-5">
-        <div class="col"></div>
-        <div class="col">
-            <div class="alert alert-success" role="alert">
-                <h4 class="alert-heading">Congratulation!</h4>
-                <p>Your link was shorten successfully.</p>
-            </div>
-        </div>
-        <div class="col"></div>
-    </div>
-    <div class="row pt-5">
         <div class="col">
             <div class="card text-center w-100" style="width: 18rem;">
                 <div class="text-center">
@@ -57,10 +47,23 @@
             </div>
         </div>
         <div class="col">
-            <div id="div_id_url" class="form-group">
-                <input type="text" name="url" value="{{ new_url }}"
-                       class="textinput textInput form-control" required="" id="new-link"></div>
-            <button class="btn btn-primary btn-lg btn-block" onclick="myFunction(id='new-link')">Copy</button>
+            <div class="row">
+                <div class="col">
+                    <div class="alert alert-success" role="alert">
+                        <h4 class="alert-heading">Congratulation!</h4>
+                        <p>Your link was shorten successfully.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="div_id_url" class="form-group">
+                        <input type="text" name="url" value="{{ new_url }}"
+                               class="textinput textInput form-control" required="" id="new-link"></div>
+                    <button class="btn btn-primary btn-lg btn-block" onclick="myFunction(id='new-link')">Copy
+                    </button>
+                </div>
+            </div>
         </div>
         <div class="col">
             <div class="card text-center w-100" style="width: 18rem;">
