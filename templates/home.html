@@ -30,16 +30,15 @@
         <div class="col"></div>
         <div class="col">
             <div class="alert alert-danger" role="alert">
-                <h4 class="alert-heading">Notice!</h4>
-                <p>This project is for my portfolio demo, if you are here from any search engines we are notice you this
-                    service is a demo and we are not guarantee about this service uptime.</p>
+                <p>This project is for my portfolio demo, if you find yourself here from any search engines please
+                    notice we are not guaranteed the uptime of this service.</p>
                 <hr>
-                <p class="mb-0">Use <a href="https://bit.ly">BITLY</a>.</p>
+                <p class="mb-0">Thanks for your attention please use <a href="https://b2n.ir/">B2N</a> service.</p>
             </div>
         </div>
         <div class="col"></div>
     </div>
-    <div class="row pt-5">
+    <div class="row pt-1">
         <div class="col"></div>
         <div class="col">
             <form action="{% url 'home' %}" method="post">
@@ -50,26 +49,21 @@
         </div>
         <div class="col"></div>
     </div>
-    <h1 class="display-4">Database:</h1>
+    <div class="text-center pt-4">
+        <h3>Recently Shorted Links</h3>
+    </div>
     <div class="row">
         <div class="col">
             <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Original Link</th>
-                    <th scope="col">Shorten Link</th>
-                </tr>
-                </thead>
                 <tbody>
                 {% for form in resent_form %}
                     <tr>
                         <th scope="row">{{ form.pk }}</th>
                         <td>
-                            <div class="input-group mb-3">
+                            <div class="input-group">
                                 <input type="text" class="form-control" value="{{ form.url }}"
                                        aria-label="Url" aria-describedby="basic-addon2"
-                                       id="long-{{ form.pk }}">
+                                       id="long-{{ form.pk }}" readonly>
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-warning"
                                             onclick="myFunction(id='long-{{ form.pk }}')">Copy
@@ -79,9 +73,10 @@
                         </td>
                         <td>
                             <div class="input-group mb-3">
-                                <input type="text" class="form-control" value="http://127.0.0.1:8000/{{ form.pk }}"
+                                <input type="text" class="form-control"
+                                       value="http://linkshortner.pythonanywhere.com/{{ form.pk }}"
                                        aria-label="Url" aria-describedby="basic-addon2"
-                                       id="short-{{ form.pk }}">
+                                       id="short-{{ form.pk }}" readonly>
                                 <div class="input-group-append">
                                     <button class="btn btn-outline-warning"
                                             onclick="myFunction(id='short-{{ form.pk }}')">
