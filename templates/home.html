@@ -125,6 +125,8 @@
 
         /* Copy the text inside the text field */
         document.execCommand("copy");
+        $('button#' + id).removeClass("btn-outline-warning")
+        $("button#" + id).addClass('btn-outline-success')
 
         /* Alert the copied text */
         {#alert("Link: " + copyText.value + " Copied Successfully.");#}
