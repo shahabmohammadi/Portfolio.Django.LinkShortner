@@ -1,5 +1,5 @@
 """
-WSGI config for urlShortnerApplication project.
+WSGI config for linkShortnerApplication project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'urlShortnerApplication.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'linkShortnerApplication.settings')
 
 application = get_wsgi_application()
